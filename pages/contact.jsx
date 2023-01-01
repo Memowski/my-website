@@ -16,14 +16,12 @@ export default function Home() {
             <div className="max-w-lg w-full">
                 <a target="_blank" rel="norefferer" href=" https://instagram.com/umutxyp/">
                     <div className="flex justify-between bg-zinc-500/5 hover:bg-zinc-500/10 transition-all duration-200 px-4 py-2 rounded-lg items-center">
-                        <i className="fab fa-instagram fa-2x" />
-                        <p className="font-semibold text-xl">@umutxyp</p>
                     </div>
                 </a>
                 <a target="_blank" rel="norefferer" href="https://discord.com/users/615029465726320654">
                     <div className="mt-2 flex justify-between bg-zinc-500/5 hover:bg-zinc-500/10 transition-all duration-200 px-4 py-2 rounded-lg items-center">
                         <i className="fab fa-discord fa-2x" />
-                        <p className="font-semibold text-xl">Memıwski#2367</p>
+                        <p className="font-semibold text-xl">Memowski#2367</p>
                     </div>
                 </a>
                 <a href="mailto:umutbayraktar55@gmail.com">
