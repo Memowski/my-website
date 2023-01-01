@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="py-20">
         <p className="text-3xl text-white font-semibold text-center">Contact Me</p>
-        <p className="text-xl text-white/50 font-normal text-center mb-5">Other addresses where you can contact me.</p>
+        <p className="text-xl text-white/50 font-normal text-center mb-5">Bana ulaşabileceğiniz diğer adresler.</p>
         <div className=" flex justify-center flex-col items-center">
             <div className="max-w-lg w-full">
                 <a target="_blank" rel="norefferer" href=" https://instagram.com/umutxyp/">
@@ -20,22 +20,16 @@ export default function Home() {
                         <p className="font-semibold text-xl">@umutxyp</p>
                     </div>
                 </a>
-                <a target="_blank" rel="norefferer" href="https://facebook.com/umutxyp/">
-                    <div className="mt-2 flex justify-between bg-zinc-500/5 hover:bg-zinc-500/10 transition-all duration-200 px-4 py-2 rounded-lg items-center">
-                        <i className="fab fa-facebook fa-2x" />
-                        <p className="font-semibold text-xl">@umutxyp</p>
-                    </div>
-                </a>
                 <a target="_blank" rel="norefferer" href="https://discord.com/users/615029465726320654">
                     <div className="mt-2 flex justify-between bg-zinc-500/5 hover:bg-zinc-500/10 transition-all duration-200 px-4 py-2 rounded-lg items-center">
                         <i className="fab fa-discord fa-2x" />
-                        <p className="font-semibold text-xl">Umut#6070</p>
+                        <p className="font-semibold text-xl">Memıwski#2367</p>
                     </div>
                 </a>
                 <a href="mailto:umutbayraktar55@gmail.com">
                     <div className="mt-2 flex justify-between bg-zinc-500/5 hover:bg-zinc-500/10 transition-all duration-200 px-4 py-2 rounded-lg items-center">
                         <i className="fa fa-envelope fa-2x" />
-                        <p className="font-semibold text-xl">umutbayraktar55@hotmail.com</p>
+                        <p className="font-semibold text-xl">memowskisss@gmail.com</p>
                     </div>
                 </a>
             </div>
