@@ -2,17 +2,17 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://media.discordapp.net/attachments/660411919156510720/codeshare_logo.png",
-      name: "Code Share",
-      description: "Discord türkiyenin en büyük discord bot komutları arşivi ve en büyük discord botu uptime, hostlayıcı websitesi. Code Share veritabanında discord botlarına özgü yüzlerce discord bot komutu bulunmaktadır ve kendi discord botunuzu yaratmanıza yardımcı olur.",
-      link: "https://codeshare.me",
+      image: "https://cdn.discordapp.com/attachments/1051536908443983893/1057734694898241736/Siyah_ve_Krmz_E-Spor_Illustrasyon_Oyun_Oyun_Logosu.png",
+      name: "DarkneSS",
+      description: "Keyifli Discord Sunucumuz.",
+      link: "https://discord.com/invite/egHtAmapnp",
     },
     {
       id: 2,
-      image: "https://media.discordapp.net/attachments/737348411568685066/999563078079361074/YT_AVATAR_NET.jpg",
-      name: "Youtube Channel",
-      description: "I am a professional editor and intermediate software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management. I post videos about discord on my youtube channel.",
-      link: "https://youtube.com/UmutBayraktarYT",
+      image: "https://cdn.discordapp.com/attachments/1051536908443983893/1059096467370950656/memowski.png",
+      name: "Youtube Kanalım",
+      description: "İnternet üzerinden para kazanma , kişisel gelişim ve eğlence tarzında videolar yüklediğim YouTube kanalım.",
+      link: "https://www.youtube.com/@memowski",
     }
   ];
   res.status(200).json(data);
