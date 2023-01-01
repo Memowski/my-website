@@ -121,9 +121,6 @@ Herkese merhaba, ben Mehmet. İnternet üzerinden para kazanma , kişisel geliş
         </div>
       </div>
 
-
-    </>
-  )
     </>
   )
 }
