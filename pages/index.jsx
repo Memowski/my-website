@@ -44,8 +44,6 @@ Herkese merhaba, ben Mehmet. İnternet üzerinden para kazanma , kişisel geliş
           </div>
         
         
-            ? repositories
-              ? repositories
                   .sort((a, b) => b.stargazers_count - a.stargazers_count)
                   .map((_, __) => (
                     <a
