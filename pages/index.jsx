@@ -42,10 +42,6 @@ Herkese merhaba, ben Mehmet. İnternet üzerinden para kazanma , kişisel geliş
             <br></br>
             <span style={{ zIndex: '-1' }} className="text-white/5 absolute bottom-3 left-7 text-xl sm:text-2xl md:text-4xl lg:text-3xl font-semibold">Community Manager</span>
           </div>
-        
-        
-                  .sort((a, b) => b.stargazers_count - a.stargazers_count)
-                  .map((_, __) => (
                     <a
                       key={__}
                       href={`https://github.com/umutxyp/`+_.name}
