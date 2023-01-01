@@ -43,6 +43,7 @@ Herkese merhaba, ben Mehmet. İnternet üzerinden para kazanma , kişisel geliş
             <span style={{ zIndex: '-1' }} className="text-white/5 absolute bottom-3 left-7 text-xl sm:text-2xl md:text-4xl lg:text-3xl font-semibold">Community Manager</span>
           </div>
 
+
     </>
   )
 }
