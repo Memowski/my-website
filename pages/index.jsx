@@ -4,7 +4,7 @@ import swr from '../lib/swr';
 import Tippy from '@tippyjs/react';
 
 
-export default function Home() {
+export default function Ana Sayfa() {
   const { data: _repositories } = swr("/api/repos");
   const repositories = _repositories ? _repositories : null;
 
@@ -16,9 +16,9 @@ export default function Home() {
               <div className="flex flex-col lg:justify-start justify-center items-center lg:items-start mt-5 lg:mt-0 w-full">
                 <div className="flex items-center">
                 <p className="flex items-center text-white text-4xl font-semibold">
-                  Umut Bayraktar
+                  Mehmet Özalp
                 </p>
-                  <Tippy content={`Online`} animation="shift-away" arrow={false}>
+                  <Tippy content={`Çevrimiçi`} animation="shift-away" arrow={false}>
                     <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
                           <i className={`fa fa-circle text-online mr-2`} />Online
                     </span>
@@ -26,11 +26,11 @@ export default function Home() {
             
                 </div>
                 <p className="text-white/50 text-md mt-3">
-I am a professional editor and software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management.
+Her kese Merhaba, ben Mehmet..
                 </p>
               </div>
               <div className={`order-first lg:order-last flex-shrink-0 relative w-[160px] h-[160px] rounded-full pulse-avatar-online `}>
-                <img alt="umutbayraktar" src={`https://media.discordapp.net/attachments/737348411568685066/996841172372824184/YT_AVATAR_NET.jpg`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
+                <img alt="Mehmet Özalp" src={`https://cdn.discordapp.com/attachments/1051236432418709635/1059104261373427742/IMG_20221208_184434_451.jpg`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Online" animation="shift-away" arrow={false}>
                     <i className={`fad fa-circle text-2xl text-online`} />
