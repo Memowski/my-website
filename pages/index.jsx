@@ -4,7 +4,7 @@ import swr from '../lib/swr';
 import Tippy from '@tippyjs/react';
 
 
-export default function Ana Sayfa() {
+export default function AnaSayfa() {
   const { data: _repositories } = swr("/api/repos");
   const repositories = _repositories ? _repositories : null;
 
