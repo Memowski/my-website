@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
   return (<>
     <Head>
         <title>MVDıgıtal</title>
-        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1051536908443983893/1059096467370950656/memowski.png" type="image/x-icon" ></link>
+        <link rel="shortcut icon" href="https://media.discordapp.net/attachments/1051536908443983893/1059098529538257006/memowski_pp_mini.png?width=1020&height=447" type="image/x-icon" ></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
 
